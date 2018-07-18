@@ -1,0 +1,28 @@
+{
+  "name": "16.4.Webpack_Loadery",
+  "version": "1.0.0",
+  "description": "Połączenie Webpacka z Reactem, wstęp do aplikacji Todo",
+  "scripts": {
+    "start": "webpack"
+  },
+  "keywords": [
+    "Webpack",
+    "Loaders"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pawelbus/16.4.zadanie.git"
+  }
+}

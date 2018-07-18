@@ -1,0 +1,19 @@
+const path = require('path');
+
+//webpack.config.js
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'build'),
+    filename: './build/app.bundle.js'
+  },
+
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        loader: "babel-loader"
+      }
+    ]
+  }
+};
